@@ -5,6 +5,14 @@ const StyleLogo  = styled.div`
     font-size: 2rem;
     font-weight: 700;
 
+    &:hover {
+        filter: brightness(75%);
+        transition: .2s ease all;
+    }
+
+    a {
+        text-decoration: none;
+    }
     .azul {
         color: #ff1c21
     }

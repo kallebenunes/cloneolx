@@ -1,15 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import StyleLogo from './style'
+
 
 const Logo = () => {
     return (
         <StyleLogo>
-            <div>
+            <Link to='/'> 
                 <span className="azul">O</span>
                 <span className="branco">L</span>
                 <span className="verde">X</span>
                 
-            </div>
+            </Link>
         </StyleLogo>
     )
 }
