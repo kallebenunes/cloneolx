@@ -1,9 +1,18 @@
 import React from 'react'
+import Container from '../../components/container'
+import ContainerFull from '../../components/container-full'
+import Footer from '../../components/footer'
+import Header from '../../components/header'
 
-const index = () => {
+
+const Home = () => {
     return (
-        <h1> Rota '/' ligada </h1>
+        <>
+            <Header/>
+            
+            <Footer/>
+        </>
     )
 }
 
-export default index
+export default Home

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const index = () => {
+const NotFound = () => {
     return (
         <div>
             <h1>Página não econtrada</h1>
@@ -8,4 +8,4 @@ const index = () => {
     )
 }
 
-export default index
+export default NotFound
