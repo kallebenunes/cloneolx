@@ -8,10 +8,10 @@ import StyleHeader from './style'
 
 const Header = () => {
     return (
-        <StyleHeader>
+        <StyleHeader className="dark">
             <ContainerFull>
                 <Container>
-                    <header>
+                    <header >
                         <Logo/>
                         <HeaderMenu/>
                     </header>

@@ -1,21 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from '../container'
 import ContainerFull from '../container-full'
-
-import styled from 'styled-components';
-
-const FooterStyle = styled.footer`
-    height: 74px;
-    background: violet;
-`
+import FooterStyle from './style'
 
 const Footer = () => {
-    return (
+
+        return (
 
 
         <FooterStyle>
             <ContainerFull>
-                <Container>Qual o conteúdo daqui ? </Container>
+                <Container></Container>
             </ContainerFull>    
         </FooterStyle>
     )   
